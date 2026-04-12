@@ -1,3 +1,60 @@
 import json, os
 out = "src/main/resources/crimsonEyedResources/localization/jpn"
 os.makedirs(out, exist_ok=True)
+
+cards = {}
+
+cards["crimsonEyed:AbsorbChakra"] = {"NAME":"チャクラ吸収","DESCRIPTION":"!M! HPを回復する。 NL [E]を得る。 NL 廃棄する。","UPGRADE_DESCRIPTION":"!M! HPを回復する。 NL [E][E]を得る。 NL 廃棄する。"}
+cards["crimsonEyed:Agonize"] = {"NAME":"苦悶","DESCRIPTION":"状態異常またはカースカードを引くたびに、筋力を1得る。"}
+cards["crimsonEyed:AlmightyPush"] = {"NAME":"万象斥力","DESCRIPTION":"手札を全て捨てる。 NL 捨てたカードの枚数の!M!倍のダメージを全ての敵に与える。"}
+cards["crimsonEyed:Amaterasu"] = {"NAME":"天照","DESCRIPTION":"!M! HPを失う。 NL !D! ダメージを与える。 NL ダーク1つを生成する。"}
+cards["crimsonEyed:Amenotejikara"] = {"NAME":"天手力","DESCRIPTION":"山札から攻撃カードを!M!枚手札に加える。 NL このカードを山札に混ぜる。","UPGRADE_DESCRIPTION":"山札から攻撃カードを!M!枚手札に加える。 NL このカードを山札に混ぜる。"}
+cards["crimsonEyed:AmpUp"] = {"NAME":"増幅","DESCRIPTION":"生成中のオーブ1つにつき[E]を得る。"}
+cards["crimsonEyed:Analyze"] = {"NAME":"分析","DESCRIPTION":"!B! ブロックを得る。 NL 集中力がこのカードに!M!回効果を与える。"}
+cards["crimsonEyed:Anticipate"] = {"NAME":"読み","DESCRIPTION":"!B! ブロックを得る。 NL 選択: NL 次のターン、カードを!M!枚引く NL または[E]を得る。","UPGRADE_DESCRIPTION":"!B! ブロックを得る。 NL 選択: NL 次のターン、カードを!M!枚引く、[E]を得る、または!B! ブロックを得る。"}
+cards["crimsonEyed:BoneBreaker"] = {"NAME":"骨砕き","DESCRIPTION":"!D! ダメージを与える。 NL 金属化を!M!得る。"}
+cards["crimsonEyed:BlazeBarrier2"] = {"NAME":"炎壁","DESCRIPTION":"ダーク1つを生成する。 NL 次のオーブの解放量と等しいブロックを得る。","UPGRADE_DESCRIPTION":"ダーク1つを生成する。 NL 次のオーブのパッシブ効果を発動し、その解放量と等しいブロックを得る。"}
+cards["crimsonEyed:Chidori"] = {"NAME":"千鳥","DESCRIPTION":"!D! ダメージを与える。 NL ライトニング1つを生成する。 NL 敵がロックオン状態なら、次のオーブを解放する。"}
+cards["crimsonEyed:ChidoriBlade"] = {"NAME":"千鳥・刀","DESCRIPTION":"!D! ダメージを与える。 NL 次のオーブのパッシブ効果を発動する。"}
+cards["crimsonEyed:ChidoriSenbon"] = {"NAME":"千鳥千本","DESCRIPTION":"全ての敵に!D! ダメージを与える。 NL ライトニング1つを生成する。"}
+cards["crimsonEyed:ChidoriSpear"] = {"NAME":"千鳥鋭槍","DESCRIPTION":"!D! ダメージを与える。 NL ライトニング2つを生成する。"}
+cards["crimsonEyed:ChidoriStream"] = {"NAME":"千鳥流し","DESCRIPTION":"集中力を!M!得る。 NL このターン終了時、集中力を!M!失う。 NL ライトニング1つを生成する。"}
+cards["crimsonEyed:Chop2"] = {"NAME":"斬り","DESCRIPTION":"選択: !D! ダメージを与えるか、全ての敵に!M! ダメージを与える。","UPGRADE_DESCRIPTION":"選択: !D! ダメージを与えるか、全ての敵に!M! ダメージを与える。","EXTENDED_DESCRIPTION":["選択: !D! ダメージを与える、全ての敵に!M! ダメージを与える、またはランダムな敵に!crimsonEyed:M2! ダメージを5回与える。","選択: !D! ダメージを与える、全ての敵に!M! ダメージを与える、またはランダムな敵に!crimsonEyed:M2! ダメージを5回与える。"]}
+cards["crimsonEyed:Condition"] = {"NAME":"備え","DESCRIPTION":"次のターン、!B! ブロックを得る。"}
+cards["crimsonEyed:Coordination"] = {"NAME":"協調","DESCRIPTION":"選択: 筋力を1得るか、集中力を1得て*朦朧を山札に加える。","UPGRADE_DESCRIPTION":"選択: 筋力を!M!得る、敏捷を!M!得る、または集中力を!M!得て*朦朧を山札に加える。"}
+cards["crimsonEyed:Copycat"] = {"NAME":"模倣","DESCRIPTION":"占術!M!。 NL 山札の一番上のカードを廃棄し、そのコピーを手札に加える。","UPGRADE_DESCRIPTION":"占術!M!。 NL 山札の一番上のカードを廃棄し、そのアップグレード版のコピーを手札に加える。"}
+cards["crimsonEyed:CurseMark"] = {"NAME":"呪印","DESCRIPTION":"[E][E]を得る。 NL crimsoneyed:憎悪 を crimsoneyed:激化 させる。","UPGRADE_DESCRIPTION":"[E][E][E]を得る。 NL crimsoneyed:憎悪 を crimsoneyed:激化 させる。"}
+cards["crimsonEyed:CutDown"] = {"NAME":"弱点攻め","DESCRIPTION":"!D! ダメージを与える。 NL 敵が脆弱または脱力状態なら、筋力を!M!得る。"}
+cards["crimsonEyed:Defend"] = {"NAME":"防御","DESCRIPTION":"!B! ブロックを得る。"}
+cards["crimsonEyed:Dice"] = {"NAME":"ダイス","DESCRIPTION":"ランダムな敵に!D! ダメージを!M!回与える。"}
+cards["crimsonEyed:DragonFlame"] = {"NAME":"火遁・龍炎","DESCRIPTION":"手札のスキル以外のカードを全て廃棄する。 NL !D! ダメージを与える。 NL 廃棄する。"}
+cards["crimsonEyed:Endure"] = {"NAME":"耐え","DESCRIPTION":"HPを2失う。 NL !B! ブロックを得る。"}
+cards["crimsonEyed:EnduringFlame"] = {"NAME":"不滅の炎","DESCRIPTION":"HPを1失う。 NL !B! ブロックを得る。 NL 何度でもアップグレードできる。"}
+cards["crimsonEyed:Eye"] = {"NAME":"眼","DESCRIPTION":"集中力を!M!得る。 NL *朦朧を山札に混ぜる。"}
+cards["crimsonEyed:EyesWideOpen"] = {"NAME":"眼を見開く","DESCRIPTION":"一時的な集中力を!M!得る。","UPGRADE_DESCRIPTION":"集中力を!M!得る。 NL 次の!M!ターンの終了時に集中力を1失う。"}
+cards["crimsonEyed:Feet"] = {"NAME":"足技","DESCRIPTION":"敏捷を!M!得る。"}
+cards["crimsonEyed:FindOpenings"] = {"NAME":"隙を突く","DESCRIPTION":"!D! ダメージを与える。 NL このターン、攻撃カードをプレイするたびにカードを1枚引く。"}
+cards["crimsonEyed:Fireball"] = {"NAME":"豪火球の術","DESCRIPTION":"全ての敵に!D! ダメージを与える。廃棄済みのカード1枚につき!M! 追加ダメージ。 NL カードを1枚廃棄する。"}
+cards["crimsonEyed:FromDiscardPile"] = {"NAME":"捨て札から","DESCRIPTION":"次のターン開始時、捨て札から!M!枚手札に加える。"}
+cards["crimsonEyed:FromDrawPile"] = {"NAME":"山札から","DESCRIPTION":"次のターン開始時、山札から!M!枚手札に加える。"}
+cards["crimsonEyed:FromExhaustPile"] = {"NAME":"廃棄札から","DESCRIPTION":"次のターン開始時、廃棄札から!M!枚手札に加える。"}
+cards["crimsonEyed:Fusillade"] = {"NAME":"連射","DESCRIPTION":"!D! ダメージを与える。 NL 廃棄時: このカードのコピーを2枚手札に加える。"}
+cards["crimsonEyed:Gaze"] = {"NAME":"眼差し","DESCRIPTION":"!B! ブロックを得る。 NL オーブスロットを1得る。"}
+cards["crimsonEyed:Genjutsu"] = {"NAME":"幻術","DESCRIPTION":"敵の筋力を1減らす。 NL 脆弱を!crimsonEyed:M2!付与する。 NL 廃棄する。"}
+cards["crimsonEyed:Grudge"] = {"NAME":"怨念","DESCRIPTION":"ターン終了時、カードを1枚廃棄する。","UPGRADE_DESCRIPTION":"初期手札。 NL ターン終了時、カードを1枚廃棄する。"}
+cards["crimsonEyed:Hand"] = {"NAME":"手技","DESCRIPTION":"筋力を!M!得る。"}
+cards["crimsonEyed:Hatred"] = {"NAME":"憎悪","DESCRIPTION":"プレイ不可。 NL エーテル。 NL ターン終了時、HPを!M!失う。デッキから取り除けない。"}
+cards["crimsonEyed:Honoikazuchi"] = {"NAME":"焔雷","DESCRIPTION":"このバトルで生成したダーク1つにつき!D! ダメージを与える。","EXTENDED_DESCRIPTION":[" NL （ダークを!M!個生成済み。）"]}
+cards["crimsonEyed:HungerForPower"] = {"NAME":"力への渇望","DESCRIPTION":"カードを!M!枚引く。 NL この方法で引いた状態異常またはカースカードを廃棄し、廃棄した枚数だけ追加で引く。"}
+cards["crimsonEyed:IndraForm"] = {"NAME":"インドラの型","DESCRIPTION":"エーテル。 NL ターン開始時、ライトニングを!M!個生成する。","UPGRADE_DESCRIPTION":"ターン開始時、ライトニングを!M!個生成する。"}
+cards["crimsonEyed:IndrasArrow"] = {"NAME":"インドラの矢","DESCRIPTION":"このバトルで生成したライトニング1つにつきコストが[E]1減る。 NL !D! ダメージを与える。"}
+cards["crimsonEyed:InfernoStyle"] = {"NAME":"炎遁の型","DESCRIPTION":"ダーク1つを生成する。 NL ダークオーブがパッシブ効果を発動するたびに、crimsoneyed:炎バリア を!M!得る。"}
+cards["crimsonEyed:Izanagi"] = {"NAME":"伊邪那岐","DESCRIPTION":"無実体を!M!得る。 NL ターン終了時、*虚無を山札に混ぜる。"}
+cards["crimsonEyed:Jolt"] = {"NAME":"放電","DESCRIPTION":"!D! ダメージを与える。 NL 次のオーブを解放する。 NL カードを1枚引く。"}
+cards["crimsonEyed:Kagutsuchi"] = {"NAME":"加具土命","DESCRIPTION":"HPを1失う。 NL ロックオンを1付与する。 NL 次のオーブを解放する。","UPGRADE_DESCRIPTION":"HPを1失う。 NL ロックオンを1付与する。 NL 次のオーブを2回解放する。"}
+cards["crimsonEyed:KagutsuchiChidori"] = {"NAME":"加具土命千鳥","DESCRIPTION":"!D! ダメージを与える。 NL 選択: ライトニングまたはダークを1個生成する。 NL 廃棄する。","UPGRADE_DESCRIPTION":"!D! ダメージを与える。 NL 選択: ライトニングまたはダークを1個生成する。","EXTENDED_DESCRIPTION":["!D! ダメージを与える。 NL 選択: ライトニング、ダーク、またはプラズマを1個生成する。 NL 廃棄する。","!D! ダメージを与える。 NL 選択: ライトニング、ダーク、またはプラズマを1個生成する。"]}
+cards["crimsonEyed:KillingIntent"] = {"NAME":"殺意","DESCRIPTION":"!D! ダメージを与える。 NL 脱力を!M!付与する。 NL 脆弱を!M!付与する。 NL crimsoneyed:憎悪 を crimsoneyed:激化 させる。","UPGRADE_DESCRIPTION":"!D! ダメージを与える。 NL 脱力を!M!付与する。 NL 脆弱を!M!付与する。"}
+cards["crimsonEyed:Kirin3"] = {"NAME":"麒麟","DESCRIPTION":"廃棄済みのカード1枚につきコストが[E]1減る。 NL ライトニングを!M!個生成する。 NL 全てのオーブを解放する。 NL 廃棄する。"}
+cards["crimsonEyed:KnowPain"] = {"NAME":"痛みを知れ","DESCRIPTION":"ターン開始時、crimsoneyed:憎悪 を crimsoneyed:激化 させ、カードを!M!枚引く。","UPGRADE_DESCRIPTION":"初期手札。 NL ターン開始時、crimsoneyed:憎悪 を crimsoneyed:激化 させ、カードを!M!枚引く。"}
+
+# ここまで第1弾。次の指示を待ってください。まだ実行しないこと。
