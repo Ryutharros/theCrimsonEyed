@@ -553,6 +553,9 @@ public class SasukeMod implements
             case ZHT:
                 toReturn += "zht/";
                 break;
+            case JPN:
+                toReturn += "jpn/";
+                break;
             default:
                 toReturn += "eng/";
                 break;
