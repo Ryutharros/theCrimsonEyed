@@ -111,3 +111,33 @@ cards["crimsonEyed:PlasmaChoice"] = {"NAME":"プラズマ","DESCRIPTION":"プラ
 with open(f"{out}/SasukeMod-Card-Strings.json","w",encoding="utf-8") as f:
     json.dump(cards,f,ensure_ascii=False,indent=2)
 print("Cards: OK")
+
+character = {"crimsonEyed:Sasuke":{"NAMES":["うちはサスケ","うちはサスケ"],"TEXT":["復讐に生きる うちはサスケ。 NL 雷遁と写輪眼で敵を圧倒する。","NL 千鳥に黒炎を纏わせる...","暗い路地を進むと、何者かが不気味な儀式を行っているのに出くわした。近づくと、一斉にこちらを振り向く。最も背の高い者が鋭い牙を剥き出しにし、白く長い手を伸ばしてきた。 NL ~「共に~来い~兄よ、~スパイアの~温もりを~感じるがいい。」~"]}}
+with open(f"{out}/SasukeMod-Character-Strings.json","w",encoding="utf-8") as f:
+    json.dump(character,f,ensure_ascii=False,indent=2)
+print("Character: OK")
+
+keywords = [{"PROPER_NAME":"起爆","NAMES":["explosive","Explosive","起爆"],"DESCRIPTION":"次にカードを廃棄した時、敵にダメージを与える。"},{"PROPER_NAME":"憎悪","NAMES":["hatred","Hatred","Hatreds","憎悪"],"DESCRIPTION":"憎悪はエーテル付きのカースで、毎ターンHPを失わせる。"},{"PROPER_NAME":"運命","NAMES":["fate","Fate","運命"],"DESCRIPTION":"次のバフを無効化する。アーティファクトを通じて付与される。"},{"PROPER_NAME":"炎バリア","NAMES":["Flame Barrier","flame_barrier","Flame_Barrier","炎バリア"],"DESCRIPTION":"このターン攻撃を受けるたびに、ダメージを反射する。"},{"PROPER_NAME":"激化","NAMES":["intensify","Intensify","激化"],"DESCRIPTION":"手札にある憎悪をアップグレードし、その他の憎悪を全て手札に加える。持っていない場合はコピーを1枚手札に加える。"},{"PROPER_NAME":"占術済み","NAMES":["Scried","占術済み"],"DESCRIPTION":"山札の上X枚を見る。任意の枚数を捨て札にできる。"}]
+with open(f"{out}/SasukeMod-Keyword-Strings.json","w",encoding="utf-8") as f:
+    json.dump(keywords,f,ensure_ascii=False,indent=2)
+print("Keywords: OK")
+
+potions = {"crimsonEyed:CoordinationPotion":{"NAME":"協調のポーション","DESCRIPTIONS":["#y筋力 、#y敏捷 、#y集中力 をそれぞれ #b"," 得る。"]},"crimsonEyed:ParalysisPotion":{"NAME":"麻痺のポーション","DESCRIPTIONS":["敵の #y筋力 を #b"," 減らす。"]},"crimsonEyed:ScryPotion":{"NAME":"占術のポーション","DESCRIPTIONS":["占術を #b"," 行う。次のターン、追加でカードを1枚引く。"]},"crimsonEyed:YinVessel":{"NAME":"陰の器","DESCRIPTIONS":["ランダムなレアカード #b5 枚（他の各キャラクター1枚ずつ）から #b1 枚を選んで手札に加える。このターン、そのカードのコストは #b0 になる。","ランダムなレアカード #b5 枚（他の各キャラクター1枚ずつ）から1枚を選び、 #b2 枚のコピーを手札に加える。このターン、それらのコストは #b0 になる。"]}}
+with open(f"{out}/SasukeMod-Potion-Strings.json","w",encoding="utf-8") as f:
+    json.dump(potions,f,ensure_ascii=False,indent=2)
+print("Potions: OK")
+
+powers = {"crimsonEyed:BlazeBarrierPower":{"NAME":"炎壁","DESCRIPTIONS":["#yダーク オーブがパッシブ効果を発動するたびに、#y炎バリア を #b"," 得る。"]},"crimsonEyed:BlindedPower":{"NAME":"盲目","DESCRIPTIONS":["ターン終了時、#y虚無 を #b"," 枚山札に混ぜる。","ターン終了時、#y虚無 を1枚山札に混ぜる。"]},"crimsonEyed:ElectrifyPower":{"NAME":"帯電","DESCRIPTIONS":["次の #b"," ターン、#yライトニング が全ての敵にヒットする。","このターン、#yライトニング が全ての敵にヒットする。"]},"crimsonEyed:ExhaustDamagePower":{"NAME":"不死鳥花","DESCRIPTIONS":["カードを廃棄するたびに、ランダムな敵に #b"," ダメージを与える。"]},"crimsonEyed:FindOpeningsPower":{"NAME":"隙を突く","DESCRIPTIONS":["攻撃カードをプレイするたびに、カードを #b"," 枚引く。"," 枚引く。"]},"crimsonEyed:GrudgePower":{"NAME":"怨念","DESCRIPTIONS":["ターン終了時、カードを #b"," 枚廃棄する。"," 枚廃棄する。"]},"crimsonEyed:IndraFormPower":{"NAME":"インドラの型","DESCRIPTIONS":["ターン開始時、#yライトニング を #b"," 個生成する。"]},"crimsonEyed:KagutsuchiPower":{"NAME":"加具土命","DESCRIPTIONS":["このターン、攻撃カードをプレイするたびに次のオーブのパッシブ効果を #b"," 回発動する。"," 回発動する。"]},"crimsonEyed:LightningSpeedPower":{"NAME":"雷速","DESCRIPTIONS":["#yライトニング を生成するたびに、#yブロック を #b"," 得る。"]},"crimsonEyed:LoseFocusPower":{"NAME":"集中力消散","DESCRIPTIONS":["ターン終了時、#y集中力 を #b"," 失う。"]},"crimsonEyed:MangekyouPower2":{"NAME":"万華鏡写輪眼","DESCRIPTIONS":["カードによってHPを失うたびに、#y集中力 を #b"," 得る。"]},"crimsonEyed:OneStepAheadPower":{"NAME":"先読み","DESCRIPTIONS":["このターン終了時、最大 #b"," 枚のカードを保留する。"," 枚のカードを保留する。"]},"crimsonEyed:PerceptionPower":{"NAME":"知覚","DESCRIPTIONS":["占術を行うたびに、カードを #b"," 枚引く。"," 枚引く。"]},"crimsonEyed:KnowPainPower":{"NAME":"痛みを知れ","DESCRIPTIONS":["ターン開始時、#y憎悪 を #y激化 させ、カードを #b"," 枚引く。"," 枚引く。"]},"crimsonEyed:RevolutionPower":{"NAME":"革命","DESCRIPTIONS":["状態異常またはカースカードを引くたびに、#y筋力 を #b"," 得る。"]},"crimsonEyed:SpitePower":{"NAME":"悪意","DESCRIPTIONS":["致死ダメージを与えるたびに、HP を #b"," 回復する。"]},"crimsonEyed:SpaceTimePower":{"NAME":"万象引力","DESCRIPTIONS":["あと #b"," ターン後、"," を手札に加える。"," ターン後、"]}}
+with open(f"{out}/SasukeMod-Power-Strings.json","w",encoding="utf-8") as f:
+    json.dump(powers,f,ensure_ascii=False,indent=2)
+print("Powers: OK")
+
+relics = {"crimsonEyed:CrimsonEye":{"NAME":"DEPRECATED:紅眼（旧版）","FLAVOR":"一つの眼。その虹彩がかすかに赤く脈動している。","DESCRIPTIONS":["各バトル開始時、全ての敵にロックオンを #b1 付与する。"]},"crimsonEyed:CrimsonEye2":{"NAME":"紅眼","FLAVOR":"#y憎悪 に染まりし眼。真実を見通し、幻を創り出す。","DESCRIPTIONS":["HPが #b50% 以下の時、#y筋力 、#y敏捷 、#y集中力 が #b"," ずつ増加する。"]},"crimsonEyed:CrowFeather":{"NAME":"烏の羽","FLAVOR":"手のひらにその感触はある。しかし本当にそこにあるのか、確信が持てない。","DESCRIPTIONS":["敵にデバフを付与するたびに、#yブロック を #b"," 得る。"]},"crimsonEyed:EternalEye":{"NAME":"永遠の眼","FLAVOR":"闇の中から目覚めし眼。","DESCRIPTIONS":["#y紅眼 を置き換える。バトル開始時、#y筋力 、#y敏捷 、#y集中力 が #b"," ずつ増加した状態で始まる。"]},"crimsonEyed:BlueScale":{"NAME":"青い鱗","FLAVOR":"青い蛇の鱗。長い間閉ざしていた何かを揺り起こす。","DESCRIPTIONS":["各ターン、初めて状態異常またはカースカードを引いた時、[E]を得る。"]},"crimsonEyed:CherryBlossom":{"NAME":"桜","FLAVOR":"咲き誇る生命力。","DESCRIPTIONS":["バトル中、初めてカードを #b"," 枚廃棄した時、HP を #b"," 回復する。"]},"crimsonEyed:NohMask":{"NAME":"能面","FLAVOR":"死神の面。これを被る者は、生と死の十字路に立つ。","DESCRIPTIONS":["「選択」カードの選択肢が少なくとも #b3 つになる。"]},"crimsonEyed:PaperSnek":{"NAME":"紙の蛇","FLAVOR":"折り目の曲線が、うねる生き物の姿を描き出している。","DESCRIPTIONS":["#yロックオン 状態の敵が受けるダメージが #b50% 増ではなく #b75% 増になる。"]},"crimsonEyed:Kaleidoscope":{"NAME":"万華鏡","FLAVOR":"無数の色彩。","DESCRIPTIONS":["各バトル開始時、全ての敵に #yロックオン を #b"," 付与する。"]},"crimsonEyed:ScratchedHeadband":{"NAME":"傷ついた額当て","FLAVOR":"かつて歪み、曲がりながらも、決して断ち切られなかった絆の形見。まるで祈るように、強く握り締める。","DESCRIPTIONS":["#y憎悪 を #y不滅の炎+ に変換する。#y激化 は代わりに #y不滅の炎 に作用する。"]},"crimsonEyed:StoneTablet":{"NAME":"石板","FLAVOR":"見たこともない言語で刻まれた予言。それでもなぜか、その言葉が理解できる...","DESCRIPTIONS":["前のターンにHPを失っていた場合、ターン開始時に占術を #b"," 行う。"]},"crimsonEyed:StoneTabletOLD":{"NAME":"DEPRECATED:石板（旧版）","FLAVOR":"見たこともない言語で刻まれた予言。なぜか読める。","DESCRIPTIONS":["占術を #b"," 回行うたびに、全ての敵に #b"," ダメージを与える。"]},"crimsonEyed:Uchiwa":{"NAME":"団扇","FLAVOR":"紙の扇子。かつて戦場で兵を導くために用いられたものかもしれない。","DESCRIPTIONS":["#y初期手札 のカードを引くたびに、カードを #b1 枚引く。"]}}
+with open(f"{out}/SasukeMod-Relic-Strings.json","w",encoding="utf-8") as f:
+    json.dump(relics,f,ensure_ascii=False,indent=2)
+print("Relics: OK")
+
+print("\n=== 全ファイル生成完了 ===")
+import os
+for fn in sorted(os.listdir(out)):
+    print(f"  {fn}")

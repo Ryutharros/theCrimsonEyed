@@ -1,0 +1,131 @@
+{
+  "crimsonEyed:BlazeBarrierPower": {
+    "NAME": "炎壁",
+    "DESCRIPTIONS": [
+      "#yダーク オーブがパッシブ効果を発動するたびに、#y炎バリア を #b",
+      " 得る。"
+    ]
+  },
+  "crimsonEyed:BlindedPower": {
+    "NAME": "盲目",
+    "DESCRIPTIONS": [
+      "ターン終了時、#y虚無 を #b",
+      " 枚山札に混ぜる。",
+      "ターン終了時、#y虚無 を1枚山札に混ぜる。"
+    ]
+  },
+  "crimsonEyed:ElectrifyPower": {
+    "NAME": "帯電",
+    "DESCRIPTIONS": [
+      "次の #b",
+      " ターン、#yライトニング が全ての敵にヒットする。",
+      "このターン、#yライトニング が全ての敵にヒットする。"
+    ]
+  },
+  "crimsonEyed:ExhaustDamagePower": {
+    "NAME": "不死鳥花",
+    "DESCRIPTIONS": [
+      "カードを廃棄するたびに、ランダムな敵に #b",
+      " ダメージを与える。"
+    ]
+  },
+  "crimsonEyed:FindOpeningsPower": {
+    "NAME": "隙を突く",
+    "DESCRIPTIONS": [
+      "攻撃カードをプレイするたびに、カードを #b",
+      " 枚引く。",
+      " 枚引く。"
+    ]
+  },
+  "crimsonEyed:GrudgePower": {
+    "NAME": "怨念",
+    "DESCRIPTIONS": [
+      "ターン終了時、カードを #b",
+      " 枚廃棄する。",
+      " 枚廃棄する。"
+    ]
+  },
+  "crimsonEyed:IndraFormPower": {
+    "NAME": "インドラの型",
+    "DESCRIPTIONS": [
+      "ターン開始時、#yライトニング を #b",
+      " 個生成する。"
+    ]
+  },
+  "crimsonEyed:KagutsuchiPower": {
+    "NAME": "加具土命",
+    "DESCRIPTIONS": [
+      "このターン、攻撃カードをプレイするたびに次のオーブのパッシブ効果を #b",
+      " 回発動する。",
+      " 回発動する。"
+    ]
+  },
+  "crimsonEyed:LightningSpeedPower": {
+    "NAME": "雷速",
+    "DESCRIPTIONS": [
+      "#yライトニング を生成するたびに、#yブロック を #b",
+      " 得る。"
+    ]
+  },
+  "crimsonEyed:LoseFocusPower": {
+    "NAME": "集中力消散",
+    "DESCRIPTIONS": [
+      "ターン終了時、#y集中力 を #b",
+      " 失う。"
+    ]
+  },
+  "crimsonEyed:MangekyouPower2": {
+    "NAME": "万華鏡写輪眼",
+    "DESCRIPTIONS": [
+      "カードによってHPを失うたびに、#y集中力 を #b",
+      " 得る。"
+    ]
+  },
+  "crimsonEyed:OneStepAheadPower": {
+    "NAME": "先読み",
+    "DESCRIPTIONS": [
+      "このターン終了時、最大 #b",
+      " 枚のカードを保留する。",
+      " 枚のカードを保留する。"
+    ]
+  },
+  "crimsonEyed:PerceptionPower": {
+    "NAME": "知覚",
+    "DESCRIPTIONS": [
+      "占術を行うたびに、カードを #b",
+      " 枚引く。",
+      " 枚引く。"
+    ]
+  },
+  "crimsonEyed:KnowPainPower": {
+    "NAME": "痛みを知れ",
+    "DESCRIPTIONS": [
+      "ターン開始時、#y憎悪 を #y激化 させ、カードを #b",
+      " 枚引く。",
+      " 枚引く。"
+    ]
+  },
+  "crimsonEyed:RevolutionPower": {
+    "NAME": "革命",
+    "DESCRIPTIONS": [
+      "状態異常またはカースカードを引くたびに、#y筋力 を #b",
+      " 得る。"
+    ]
+  },
+  "crimsonEyed:SpitePower": {
+    "NAME": "悪意",
+    "DESCRIPTIONS": [
+      "致死ダメージを与えるたびに、HP を #b",
+      " 回復する。"
+    ]
+  },
+  "crimsonEyed:SpaceTimePower": {
+    "NAME": "万象引力",
+    "DESCRIPTIONS": [
+      "あと #b",
+      " ターン後、",
+      " を手札に加える。",
+      " ターン後、"
+    ]
+  }
+}

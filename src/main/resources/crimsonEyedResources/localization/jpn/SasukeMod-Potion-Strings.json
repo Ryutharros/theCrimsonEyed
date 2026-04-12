@@ -1,0 +1,30 @@
+{
+  "crimsonEyed:CoordinationPotion": {
+    "NAME": "協調のポーション",
+    "DESCRIPTIONS": [
+      "#y筋力 、#y敏捷 、#y集中力 をそれぞれ #b",
+      " 得る。"
+    ]
+  },
+  "crimsonEyed:ParalysisPotion": {
+    "NAME": "麻痺のポーション",
+    "DESCRIPTIONS": [
+      "敵の #y筋力 を #b",
+      " 減らす。"
+    ]
+  },
+  "crimsonEyed:ScryPotion": {
+    "NAME": "占術のポーション",
+    "DESCRIPTIONS": [
+      "占術を #b",
+      " 行う。次のターン、追加でカードを1枚引く。"
+    ]
+  },
+  "crimsonEyed:YinVessel": {
+    "NAME": "陰の器",
+    "DESCRIPTIONS": [
+      "ランダムなレアカード #b5 枚（他の各キャラクター1枚ずつ）から #b1 枚を選んで手札に加える。このターン、そのカードのコストは #b0 になる。",
+      "ランダムなレアカード #b5 枚（他の各キャラクター1枚ずつ）から1枚を選び、 #b2 枚のコピーを手札に加える。このターン、それらのコストは #b0 になる。"
+    ]
+  }
+}

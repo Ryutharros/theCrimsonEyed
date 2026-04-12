@@ -1,0 +1,57 @@
+[
+  {
+    "PROPER_NAME": "起爆",
+    "NAMES": [
+      "explosive",
+      "Explosive",
+      "起爆"
+    ],
+    "DESCRIPTION": "次にカードを廃棄した時、敵にダメージを与える。"
+  },
+  {
+    "PROPER_NAME": "憎悪",
+    "NAMES": [
+      "hatred",
+      "Hatred",
+      "Hatreds",
+      "憎悪"
+    ],
+    "DESCRIPTION": "憎悪はエーテル付きのカースで、毎ターンHPを失わせる。"
+  },
+  {
+    "PROPER_NAME": "運命",
+    "NAMES": [
+      "fate",
+      "Fate",
+      "運命"
+    ],
+    "DESCRIPTION": "次のバフを無効化する。アーティファクトを通じて付与される。"
+  },
+  {
+    "PROPER_NAME": "炎バリア",
+    "NAMES": [
+      "Flame Barrier",
+      "flame_barrier",
+      "Flame_Barrier",
+      "炎バリア"
+    ],
+    "DESCRIPTION": "このターン攻撃を受けるたびに、ダメージを反射する。"
+  },
+  {
+    "PROPER_NAME": "激化",
+    "NAMES": [
+      "intensify",
+      "Intensify",
+      "激化"
+    ],
+    "DESCRIPTION": "手札にある憎悪をアップグレードし、その他の憎悪を全て手札に加える。持っていない場合はコピーを1枚手札に加える。"
+  },
+  {
+    "PROPER_NAME": "占術済み",
+    "NAMES": [
+      "Scried",
+      "占術済み"
+    ],
+    "DESCRIPTION": "山札の上X枚を見る。任意の枚数を捨て札にできる。"
+  }
+]

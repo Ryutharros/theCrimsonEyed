@@ -1,0 +1,102 @@
+{
+  "crimsonEyed:CrimsonEye": {
+    "NAME": "DEPRECATED:紅眼（旧版）",
+    "FLAVOR": "一つの眼。その虹彩がかすかに赤く脈動している。",
+    "DESCRIPTIONS": [
+      "各バトル開始時、全ての敵にロックオンを #b1 付与する。"
+    ]
+  },
+  "crimsonEyed:CrimsonEye2": {
+    "NAME": "紅眼",
+    "FLAVOR": "#y憎悪 に染まりし眼。真実を見通し、幻を創り出す。",
+    "DESCRIPTIONS": [
+      "HPが #b50% 以下の時、#y筋力 、#y敏捷 、#y集中力 が #b",
+      " ずつ増加する。"
+    ]
+  },
+  "crimsonEyed:CrowFeather": {
+    "NAME": "烏の羽",
+    "FLAVOR": "手のひらにその感触はある。しかし本当にそこにあるのか、確信が持てない。",
+    "DESCRIPTIONS": [
+      "敵にデバフを付与するたびに、#yブロック を #b",
+      " 得る。"
+    ]
+  },
+  "crimsonEyed:EternalEye": {
+    "NAME": "永遠の眼",
+    "FLAVOR": "闇の中から目覚めし眼。",
+    "DESCRIPTIONS": [
+      "#y紅眼 を置き換える。バトル開始時、#y筋力 、#y敏捷 、#y集中力 が #b",
+      " ずつ増加した状態で始まる。"
+    ]
+  },
+  "crimsonEyed:BlueScale": {
+    "NAME": "青い鱗",
+    "FLAVOR": "青い蛇の鱗。長い間閉ざしていた何かを揺り起こす。",
+    "DESCRIPTIONS": [
+      "各ターン、初めて状態異常またはカースカードを引いた時、[E]を得る。"
+    ]
+  },
+  "crimsonEyed:CherryBlossom": {
+    "NAME": "桜",
+    "FLAVOR": "咲き誇る生命力。",
+    "DESCRIPTIONS": [
+      "バトル中、初めてカードを #b",
+      " 枚廃棄した時、HP を #b",
+      " 回復する。"
+    ]
+  },
+  "crimsonEyed:NohMask": {
+    "NAME": "能面",
+    "FLAVOR": "死神の面。これを被る者は、生と死の十字路に立つ。",
+    "DESCRIPTIONS": [
+      "「選択」カードの選択肢が少なくとも #b3 つになる。"
+    ]
+  },
+  "crimsonEyed:PaperSnek": {
+    "NAME": "紙の蛇",
+    "FLAVOR": "折り目の曲線が、うねる生き物の姿を描き出している。",
+    "DESCRIPTIONS": [
+      "#yロックオン 状態の敵が受けるダメージが #b50% 増ではなく #b75% 増になる。"
+    ]
+  },
+  "crimsonEyed:Kaleidoscope": {
+    "NAME": "万華鏡",
+    "FLAVOR": "無数の色彩。",
+    "DESCRIPTIONS": [
+      "各バトル開始時、全ての敵に #yロックオン を #b",
+      " 付与する。"
+    ]
+  },
+  "crimsonEyed:ScratchedHeadband": {
+    "NAME": "傷ついた額当て",
+    "FLAVOR": "かつて歪み、曲がりながらも、決して断ち切られなかった絆の形見。まるで祈るように、強く握り締める。",
+    "DESCRIPTIONS": [
+      "#y憎悪 を #y不滅の炎+ に変換する。#y激化 は代わりに #y不滅の炎 に作用する。"
+    ]
+  },
+  "crimsonEyed:StoneTablet": {
+    "NAME": "石板",
+    "FLAVOR": "見たこともない言語で刻まれた予言。それでもなぜか、その言葉が理解できる...",
+    "DESCRIPTIONS": [
+      "前のターンにHPを失っていた場合、ターン開始時に占術を #b",
+      " 行う。"
+    ]
+  },
+  "crimsonEyed:StoneTabletOLD": {
+    "NAME": "DEPRECATED:石板（旧版）",
+    "FLAVOR": "見たこともない言語で刻まれた予言。なぜか読める。",
+    "DESCRIPTIONS": [
+      "占術を #b",
+      " 回行うたびに、全ての敵に #b",
+      " ダメージを与える。"
+    ]
+  },
+  "crimsonEyed:Uchiwa": {
+    "NAME": "団扇",
+    "FLAVOR": "紙の扇子。かつて戦場で兵を導くために用いられたものかもしれない。",
+    "DESCRIPTIONS": [
+      "#y初期手札 のカードを引くたびに、カードを #b1 枚引く。"
+    ]
+  }
+}

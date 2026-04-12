@@ -1,0 +1,460 @@
+{
+  "crimsonEyed:AbsorbChakra": {
+    "NAME": "チャクラ吸収",
+    "DESCRIPTION": "!M! HPを回復する。 NL [E]を得る。 NL 廃棄する。",
+    "UPGRADE_DESCRIPTION": "!M! HPを回復する。 NL [E][E]を得る。 NL 廃棄する。"
+  },
+  "crimsonEyed:Agonize": {
+    "NAME": "苦悶",
+    "DESCRIPTION": "状態異常またはカースカードを引くたびに、筋力を1得る。"
+  },
+  "crimsonEyed:AlmightyPush": {
+    "NAME": "万象斥力",
+    "DESCRIPTION": "手札を全て捨てる。 NL 捨てたカードの枚数の!M!倍のダメージを全ての敵に与える。"
+  },
+  "crimsonEyed:Amaterasu": {
+    "NAME": "天照",
+    "DESCRIPTION": "!M! HPを失う。 NL !D! ダメージを与える。 NL ダーク1つを生成する。"
+  },
+  "crimsonEyed:Amenotejikara": {
+    "NAME": "天手力",
+    "DESCRIPTION": "山札から攻撃カードを!M!枚手札に加える。 NL このカードを山札に混ぜる。",
+    "UPGRADE_DESCRIPTION": "山札から攻撃カードを!M!枚手札に加える。 NL このカードを山札に混ぜる。"
+  },
+  "crimsonEyed:AmpUp": {
+    "NAME": "増幅",
+    "DESCRIPTION": "生成中のオーブ1つにつき[E]を得る。"
+  },
+  "crimsonEyed:Analyze": {
+    "NAME": "分析",
+    "DESCRIPTION": "!B! ブロックを得る。 NL 集中力がこのカードに!M!回効果を与える。"
+  },
+  "crimsonEyed:Anticipate": {
+    "NAME": "読み",
+    "DESCRIPTION": "!B! ブロックを得る。 NL 選択: NL 次のターン、カードを!M!枚引く NL または[E]を得る。",
+    "UPGRADE_DESCRIPTION": "!B! ブロックを得る。 NL 選択: NL 次のターン、カードを!M!枚引く、[E]を得る、または!B! ブロックを得る。"
+  },
+  "crimsonEyed:BoneBreaker": {
+    "NAME": "骨砕き",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 金属化を!M!得る。"
+  },
+  "crimsonEyed:BlazeBarrier2": {
+    "NAME": "炎壁",
+    "DESCRIPTION": "ダーク1つを生成する。 NL 次のオーブの解放量と等しいブロックを得る。",
+    "UPGRADE_DESCRIPTION": "ダーク1つを生成する。 NL 次のオーブのパッシブ効果を発動し、その解放量と等しいブロックを得る。"
+  },
+  "crimsonEyed:Chidori": {
+    "NAME": "千鳥",
+    "DESCRIPTION": "!D! ダメージを与える。 NL ライトニング1つを生成する。 NL 敵がロックオン状態なら、次のオーブを解放する。"
+  },
+  "crimsonEyed:ChidoriBlade": {
+    "NAME": "千鳥・刀",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 次のオーブのパッシブ効果を発動する。"
+  },
+  "crimsonEyed:ChidoriSenbon": {
+    "NAME": "千鳥千本",
+    "DESCRIPTION": "全ての敵に!D! ダメージを与える。 NL ライトニング1つを生成する。"
+  },
+  "crimsonEyed:ChidoriSpear": {
+    "NAME": "千鳥鋭槍",
+    "DESCRIPTION": "!D! ダメージを与える。 NL ライトニング2つを生成する。"
+  },
+  "crimsonEyed:ChidoriStream": {
+    "NAME": "千鳥流し",
+    "DESCRIPTION": "集中力を!M!得る。 NL このターン終了時、集中力を!M!失う。 NL ライトニング1つを生成する。"
+  },
+  "crimsonEyed:Chop2": {
+    "NAME": "斬り",
+    "DESCRIPTION": "選択: !D! ダメージを与えるか、全ての敵に!M! ダメージを与える。",
+    "UPGRADE_DESCRIPTION": "選択: !D! ダメージを与えるか、全ての敵に!M! ダメージを与える。",
+    "EXTENDED_DESCRIPTION": [
+      "選択: !D! ダメージを与える、全ての敵に!M! ダメージを与える、またはランダムな敵に!crimsonEyed:M2! ダメージを5回与える。",
+      "選択: !D! ダメージを与える、全ての敵に!M! ダメージを与える、またはランダムな敵に!crimsonEyed:M2! ダメージを5回与える。"
+    ]
+  },
+  "crimsonEyed:Condition": {
+    "NAME": "備え",
+    "DESCRIPTION": "次のターン、!B! ブロックを得る。"
+  },
+  "crimsonEyed:Coordination": {
+    "NAME": "協調",
+    "DESCRIPTION": "選択: 筋力を1得るか、集中力を1得て*朦朧を山札に加える。",
+    "UPGRADE_DESCRIPTION": "選択: 筋力を!M!得る、敏捷を!M!得る、または集中力を!M!得て*朦朧を山札に加える。"
+  },
+  "crimsonEyed:Copycat": {
+    "NAME": "模倣",
+    "DESCRIPTION": "占術!M!。 NL 山札の一番上のカードを廃棄し、そのコピーを手札に加える。",
+    "UPGRADE_DESCRIPTION": "占術!M!。 NL 山札の一番上のカードを廃棄し、そのアップグレード版のコピーを手札に加える。"
+  },
+  "crimsonEyed:CurseMark": {
+    "NAME": "呪印",
+    "DESCRIPTION": "[E][E]を得る。 NL crimsoneyed:憎悪 を crimsoneyed:激化 させる。",
+    "UPGRADE_DESCRIPTION": "[E][E][E]を得る。 NL crimsoneyed:憎悪 を crimsoneyed:激化 させる。"
+  },
+  "crimsonEyed:CutDown": {
+    "NAME": "弱点攻め",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 敵が脆弱または脱力状態なら、筋力を!M!得る。"
+  },
+  "crimsonEyed:Defend": {
+    "NAME": "防御",
+    "DESCRIPTION": "!B! ブロックを得る。"
+  },
+  "crimsonEyed:Dice": {
+    "NAME": "ダイス",
+    "DESCRIPTION": "ランダムな敵に!D! ダメージを!M!回与える。"
+  },
+  "crimsonEyed:DragonFlame": {
+    "NAME": "火遁・龍炎",
+    "DESCRIPTION": "手札のスキル以外のカードを全て廃棄する。 NL !D! ダメージを与える。 NL 廃棄する。"
+  },
+  "crimsonEyed:Endure": {
+    "NAME": "耐え",
+    "DESCRIPTION": "HPを2失う。 NL !B! ブロックを得る。"
+  },
+  "crimsonEyed:EnduringFlame": {
+    "NAME": "不滅の炎",
+    "DESCRIPTION": "HPを1失う。 NL !B! ブロックを得る。 NL 何度でもアップグレードできる。"
+  },
+  "crimsonEyed:Eye": {
+    "NAME": "眼",
+    "DESCRIPTION": "集中力を!M!得る。 NL *朦朧を山札に混ぜる。"
+  },
+  "crimsonEyed:EyesWideOpen": {
+    "NAME": "眼を見開く",
+    "DESCRIPTION": "一時的な集中力を!M!得る。",
+    "UPGRADE_DESCRIPTION": "集中力を!M!得る。 NL 次の!M!ターンの終了時に集中力を1失う。"
+  },
+  "crimsonEyed:Feet": {
+    "NAME": "足技",
+    "DESCRIPTION": "敏捷を!M!得る。"
+  },
+  "crimsonEyed:FindOpenings": {
+    "NAME": "隙を突く",
+    "DESCRIPTION": "!D! ダメージを与える。 NL このターン、攻撃カードをプレイするたびにカードを1枚引く。"
+  },
+  "crimsonEyed:Fireball": {
+    "NAME": "豪火球の術",
+    "DESCRIPTION": "全ての敵に!D! ダメージを与える。廃棄済みのカード1枚につき!M! 追加ダメージ。 NL カードを1枚廃棄する。"
+  },
+  "crimsonEyed:FromDiscardPile": {
+    "NAME": "捨て札から",
+    "DESCRIPTION": "次のターン開始時、捨て札から!M!枚手札に加える。"
+  },
+  "crimsonEyed:FromDrawPile": {
+    "NAME": "山札から",
+    "DESCRIPTION": "次のターン開始時、山札から!M!枚手札に加える。"
+  },
+  "crimsonEyed:FromExhaustPile": {
+    "NAME": "廃棄札から",
+    "DESCRIPTION": "次のターン開始時、廃棄札から!M!枚手札に加える。"
+  },
+  "crimsonEyed:Fusillade": {
+    "NAME": "連射",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 廃棄時: このカードのコピーを2枚手札に加える。"
+  },
+  "crimsonEyed:Gaze": {
+    "NAME": "眼差し",
+    "DESCRIPTION": "!B! ブロックを得る。 NL オーブスロットを1得る。"
+  },
+  "crimsonEyed:Genjutsu": {
+    "NAME": "幻術",
+    "DESCRIPTION": "敵の筋力を1減らす。 NL 脆弱を!crimsonEyed:M2!付与する。 NL 廃棄する。"
+  },
+  "crimsonEyed:Grudge": {
+    "NAME": "怨念",
+    "DESCRIPTION": "ターン終了時、カードを1枚廃棄する。",
+    "UPGRADE_DESCRIPTION": "初期手札。 NL ターン終了時、カードを1枚廃棄する。"
+  },
+  "crimsonEyed:Hand": {
+    "NAME": "手技",
+    "DESCRIPTION": "筋力を!M!得る。"
+  },
+  "crimsonEyed:Hatred": {
+    "NAME": "憎悪",
+    "DESCRIPTION": "プレイ不可。 NL エーテル。 NL ターン終了時、HPを!M!失う。デッキから取り除けない。"
+  },
+  "crimsonEyed:Honoikazuchi": {
+    "NAME": "焔雷",
+    "DESCRIPTION": "このバトルで生成したダーク1つにつき!D! ダメージを与える。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （ダークを!M!個生成済み。）"
+    ]
+  },
+  "crimsonEyed:HungerForPower": {
+    "NAME": "力への渇望",
+    "DESCRIPTION": "カードを!M!枚引く。 NL この方法で引いた状態異常またはカースカードを廃棄し、廃棄した枚数だけ追加で引く。"
+  },
+  "crimsonEyed:IndraForm": {
+    "NAME": "インドラの型",
+    "DESCRIPTION": "エーテル。 NL ターン開始時、ライトニングを!M!個生成する。",
+    "UPGRADE_DESCRIPTION": "ターン開始時、ライトニングを!M!個生成する。"
+  },
+  "crimsonEyed:IndrasArrow": {
+    "NAME": "インドラの矢",
+    "DESCRIPTION": "このバトルで生成したライトニング1つにつきコストが[E]1減る。 NL !D! ダメージを与える。"
+  },
+  "crimsonEyed:InfernoStyle": {
+    "NAME": "炎遁の型",
+    "DESCRIPTION": "ダーク1つを生成する。 NL ダークオーブがパッシブ効果を発動するたびに、crimsoneyed:炎バリア を!M!得る。"
+  },
+  "crimsonEyed:Izanagi": {
+    "NAME": "伊邪那岐",
+    "DESCRIPTION": "無実体を!M!得る。 NL ターン終了時、*虚無を山札に混ぜる。"
+  },
+  "crimsonEyed:Jolt": {
+    "NAME": "放電",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 次のオーブを解放する。 NL カードを1枚引く。"
+  },
+  "crimsonEyed:Kagutsuchi": {
+    "NAME": "加具土命",
+    "DESCRIPTION": "HPを1失う。 NL ロックオンを1付与する。 NL 次のオーブを解放する。",
+    "UPGRADE_DESCRIPTION": "HPを1失う。 NL ロックオンを1付与する。 NL 次のオーブを2回解放する。"
+  },
+  "crimsonEyed:KagutsuchiChidori": {
+    "NAME": "加具土命千鳥",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 選択: ライトニングまたはダークを1個生成する。 NL 廃棄する。",
+    "UPGRADE_DESCRIPTION": "!D! ダメージを与える。 NL 選択: ライトニングまたはダークを1個生成する。",
+    "EXTENDED_DESCRIPTION": [
+      "!D! ダメージを与える。 NL 選択: ライトニング、ダーク、またはプラズマを1個生成する。 NL 廃棄する。",
+      "!D! ダメージを与える。 NL 選択: ライトニング、ダーク、またはプラズマを1個生成する。"
+    ]
+  },
+  "crimsonEyed:KillingIntent": {
+    "NAME": "殺意",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 脱力を!M!付与する。 NL 脆弱を!M!付与する。 NL crimsoneyed:憎悪 を crimsoneyed:激化 させる。",
+    "UPGRADE_DESCRIPTION": "!D! ダメージを与える。 NL 脱力を!M!付与する。 NL 脆弱を!M!付与する。"
+  },
+  "crimsonEyed:Kirin3": {
+    "NAME": "麒麟",
+    "DESCRIPTION": "廃棄済みのカード1枚につきコストが[E]1減る。 NL ライトニングを!M!個生成する。 NL 全てのオーブを解放する。 NL 廃棄する。"
+  },
+  "crimsonEyed:KnowPain": {
+    "NAME": "痛みを知れ",
+    "DESCRIPTION": "ターン開始時、crimsoneyed:憎悪 を crimsoneyed:激化 させ、カードを!M!枚引く。",
+    "UPGRADE_DESCRIPTION": "初期手札。 NL ターン開始時、crimsoneyed:憎悪 を crimsoneyed:激化 させ、カードを!M!枚引く。"
+  },
+  "crimsonEyed:LightningSpeed": {
+    "NAME": "雷速",
+    "DESCRIPTION": "ライトニングを NL 生成するたびに、ブロックを!M!得る。 NL ライトニング1つを生成する。",
+    "UPGRADE_DESCRIPTION": "初期手札。 NL ライトニングを NL 生成するたびに、ブロックを!M!得る。 NL ライトニング1つを生成する。"
+  },
+  "crimsonEyed:LionsBarrage": {
+    "NAME": "獅子連弾",
+    "DESCRIPTION": "!D! ダメージを!M!回与える。"
+  },
+  "crimsonEyed:Mangekyou": {
+    "NAME": "万華鏡写輪眼",
+    "DESCRIPTION": "ターン終了時、HPを!M!失い、集中力を!M!得る。"
+  },
+  "crimsonEyed:Mangekyou2": {
+    "NAME": "万華鏡写輪眼",
+    "DESCRIPTION": "カードによってHPを失うたびに、 NL 集中力を!M!得る。"
+  },
+  "crimsonEyed:MindControl": {
+    "NAME": "支配",
+    "DESCRIPTION": "初期手札。 NL 敵が攻撃意図を持つなら脱力を!M!付与する。 NL そうでなければ脆弱を!M!付与する。 NL 廃棄する。"
+  },
+  "crimsonEyed:MindGames": {
+    "NAME": "心理戦",
+    "DESCRIPTION": "!B! ブロックを得る。 NL このターンに占術を行った場合、筋力を!M!得る。"
+  },
+  "crimsonEyed:OneStepAhead": {
+    "NAME": "先読み",
+    "DESCRIPTION": "カードを!M!枚引く。 NL 占術1。"
+  },
+  "crimsonEyed:PaperBomb": {
+    "NAME": "起爆札",
+    "DESCRIPTION": "シヴを!crimsonEyed:M2!枚手札に加える。廃棄時: NL 全ての敵に!M! ダメージを与える。",
+    "UPGRADE_DESCRIPTION": "シヴを!crimsonEyed:M2!枚手札に加える。廃棄時: NL 全ての敵に!M! ダメージを与える。"
+  },
+  "crimsonEyed:Parry": {
+    "NAME": "受け流し",
+    "DESCRIPTION": "!B! ブロックを得る。 NL 脱力を!M!付与する。"
+  },
+  "crimsonEyed:Payback": {
+    "NAME": "報復",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 敵が脱力または脆弱状態なら、 NL [E][E]を得る。",
+    "UPGRADE_DESCRIPTION": "!D! ダメージを与える。 NL 敵が脱力または脆弱状態なら、 NL [E][E][E]を得る。"
+  },
+  "crimsonEyed:Perception": {
+    "NAME": "知覚",
+    "DESCRIPTION": "占術を行うたびに、カードを!M!枚引く。",
+    "UPGRADE_DESCRIPTION": "初期手札。 NL 占術を行うたびに、カードを!M!枚引く。"
+  },
+  "crimsonEyed:PeripheralVision": {
+    "NAME": "広域視野",
+    "DESCRIPTION": "バトル中の敵1体につき!B! ブロックを得る。"
+  },
+  "crimsonEyed:PhoenixFlower2": {
+    "NAME": "不死鳥花",
+    "DESCRIPTION": "カードを廃棄するたびに、ランダムな敵に!M! ダメージを与える。"
+  },
+  "crimsonEyed:PlanetaryDevastation": {
+    "NAME": "惑星壊滅",
+    "DESCRIPTION": "ロックオンを!M!付与する。 NL オーブスロットを!crimsonEyed:M2!得る。プラズマを!crimsonEyed:M2!個生成する。 NL 廃棄する。"
+  },
+  "crimsonEyed:PullWires": {
+    "NAME": "策謀",
+    "DESCRIPTION": "シヴを!M!枚手札に加える。 NL 捨て札のカードを1枚山札の一番上に置く。",
+    "UPGRADE_DESCRIPTION": "アップグレード済みシヴを!M!枚手札に加える。 NL 捨て札のカードを1枚山札の一番上に置く。"
+  },
+  "crimsonEyed:React": {
+    "NAME": "反応",
+    "DESCRIPTION": "次のターン、追加でカードを!M!枚引く。",
+    "UPGRADE_DESCRIPTION": "次のターン、追加でカードを!M!枚引く。"
+  },
+  "crimsonEyed:Read": {
+    "NAME": "構え",
+    "DESCRIPTION": "次のターン、[E]を得る。",
+    "UPGRADE_DESCRIPTION": "次のターン、[E][E]を得る。"
+  },
+  "crimsonEyed:Rend": {
+    "NAME": "斬撃",
+    "DESCRIPTION": "全ての敵に!D! ダメージを与える。"
+  },
+  "crimsonEyed:Resentment": {
+    "NAME": "怨恨",
+    "DESCRIPTION": "エーテル。 NL カードを!M!枚廃棄する。 NL 廃棄する。",
+    "UPGRADE_DESCRIPTION": "エーテル。 NL カードを!M!枚廃棄する。 NL 廃棄する。"
+  },
+  "crimsonEyed:Revenge": {
+    "NAME": "復讐",
+    "DESCRIPTION": "!D! ダメージを!M!回与える。 NL このバトルでHPを失った回数だけ追加でヒットする。 NL 廃棄する。"
+  },
+  "crimsonEyed:Revolution": {
+    "NAME": "革命",
+    "DESCRIPTION": "状態異常またはカースカードを引くたびに、筋力を!M!得る。",
+    "UPGRADE_DESCRIPTION": "初期手札。 NL 状態異常またはカースカードを引くたびに、筋力を!M!得る。"
+  },
+  "crimsonEyed:SeeEverything": {
+    "NAME": "全てを見通す",
+    "DESCRIPTION": "全ての敵にロックオン、脆弱、脱力をX付与する。 NL 廃棄する。",
+    "UPGRADE_DESCRIPTION": "全ての敵にロックオン、脆弱、脱力をX+1付与する。 NL 廃棄する。"
+  },
+  "crimsonEyed:SeverThePast": {
+    "NAME": "過去を断ち切る",
+    "DESCRIPTION": "廃棄済みのカード1枚につき!M! ブロックを得る。 NL 捨て札からカードを1枚廃棄する。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （ブロック!B!を得る。）"
+    ]
+  },
+  "crimsonEyed:ShadowShuriken": {
+    "NAME": "影手裏剣",
+    "DESCRIPTION": "!D! ダメージを与える。 NL シヴを!M!枚手札に加える。"
+  },
+  "crimsonEyed:Sharingan": {
+    "NAME": "写輪眼",
+    "DESCRIPTION": "ロックオンを2付与する。 NL 占術!M!。",
+    "UPGRADE_DESCRIPTION": "ロックオンを2付与する。 NL 占術!M!。 NL カードを1枚引く。 NL crimsoneyed:憎悪 を crimsoneyed:激化 させる。"
+  },
+  "crimsonEyed:ShedSkin": {
+    "NAME": "脱皮",
+    "DESCRIPTION": "カードを1枚廃棄する。 NL 状態異常またはカースカードだった場合、*リジェネ を!M!得て廃棄する。"
+  },
+  "crimsonEyed:Shurikenjutsu": {
+    "NAME": "手裏剣術",
+    "DESCRIPTION": "手札を NL シヴで満たす。 NL 廃棄する。",
+    "UPGRADE_DESCRIPTION": "手札を NL シヴで満たす。"
+  },
+  "crimsonEyed:SixthSense": {
+    "NAME": "第六感",
+    "DESCRIPTION": "!B! ブロックを得る。占術を行うたびに、捨て札にあるこのカードを手札に戻す。"
+  },
+  "crimsonEyed:SkeletonShield": {
+    "NAME": "骨の盾",
+    "DESCRIPTION": "!B! ブロックを得る。 NL 金属化を!M!得る。"
+  },
+  "crimsonEyed:Slash": {
+    "NAME": "斬",
+    "DESCRIPTION": "!D! ダメージを与える。"
+  },
+  "crimsonEyed:Slither": {
+    "NAME": "這う",
+    "DESCRIPTION": "カードを!M!枚引く。 NL *粘液を山札の一番上に置く。"
+  },
+  "crimsonEyed:SnakeBinding": {
+    "NAME": "蛇縛り",
+    "DESCRIPTION": "このターン、全ての敵の筋力を!M!減らす。 NL *粘液を手札に加える。"
+  },
+  "crimsonEyed:SnakeBite": {
+    "NAME": "蛇咬み",
+    "DESCRIPTION": "!D! ダメージを与える。 NL ブロックを無視したダメージと等しい毒を付与する。"
+  },
+  "crimsonEyed:SnakeHands": {
+    "NAME": "蛇の手",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 手札に状態異常またはカースカードがある場合、3回ヒットする。"
+  },
+  "crimsonEyed:SpaceTime": {
+    "NAME": "時空間術",
+    "DESCRIPTION": "選択: NL *万象引力 または *天手力 を手札に加える。",
+    "UPGRADE_DESCRIPTION": "選択: NL *万象引力+ または *天手力+ を手札に加える。",
+    "EXTENDED_DESCRIPTION": [
+      "選択: NL *万象引力、*天手力、または *万象斥力 を手札に加える。",
+      "選択: NL *万象引力+、*天手力+、または *万象斥力+ を手札に加える。"
+    ]
+  },
+  "crimsonEyed:Spite2": {
+    "NAME": "悪意",
+    "DESCRIPTION": "エーテル。 NL !D! ダメージを与える。ブロックを無視したダメージと等しいHPを回復する。 NL 廃棄する。",
+    "UPGRADE_DESCRIPTION": "!D! ダメージを与える。ブロックを無視したダメージと等しいHPを回復する。 NL 廃棄する。"
+  },
+  "crimsonEyed:Strike": {
+    "NAME": "打撃",
+    "DESCRIPTION": "!D! ダメージを与える。"
+  },
+  "crimsonEyed:SummonGaruda": {
+    "NAME": "口寄せ・迦楼羅",
+    "DESCRIPTION": "!D! ダメージを与える。 NL カードを!M!枚引く。 NL 廃棄する。"
+  },
+  "crimsonEyed:SummonWeapons": {
+    "NAME": "口寄せ・武器",
+    "DESCRIPTION": "初期手札。 NL シヴを!M!枚手札に加える。 NL 廃棄する。",
+    "UPGRADE_DESCRIPTION": "初期手札。 NL シヴを!M!枚手札に加える。"
+  },
+  "crimsonEyed:Susanoo": {
+    "NAME": "須佐能乎",
+    "DESCRIPTION": "このバトルでHPを失った回数につきコストが[E]1減る。 NL *金属化 を!M!得る。"
+  },
+  "crimsonEyed:Tomoe": {
+    "NAME": "巴",
+    "DESCRIPTION": "占術!M!。 NL 空のオーブスロットがない場合、集中力を1得る。"
+  },
+  "crimsonEyed:Tsukuyomi": {
+    "NAME": "月読",
+    "DESCRIPTION": "HPを1失う。 NL 脆弱を!crimsonEyed:M2!付与する。 NL 敵のデバフ1つにつき敵のHPを!M!減らす。"
+  },
+  "crimsonEyed:UniversalPull": {
+    "NAME": "万象引力",
+    "DESCRIPTION": "どこからでも!M!枚のカードを NL 次のターンに手札に加える。",
+    "UPGRADE_DESCRIPTION": "どこからでも!M!枚のカードを NL 次のターンに手札に加える。"
+  },
+  "crimsonEyed:Vantage": {
+    "NAME": "優位",
+    "DESCRIPTION": "初期手札。 NL [E]を得る。 NL 廃棄する。",
+    "UPGRADE_DESCRIPTION": "初期手札。 NL [E]を得る。"
+  },
+  "crimsonEyed:ViciousStrike": {
+    "NAME": "凶撃",
+    "DESCRIPTION": "!D! ダメージを与える。 NL カードを1枚引く。 NL crimsoneyed:憎悪 を crimsoneyed:激化 させる。"
+  },
+  "crimsonEyed:WatchOut": {
+    "NAME": "警戒",
+    "DESCRIPTION": "!B! ブロックを得る。 NL 全ての敵にロックオンを!M!付与する。"
+  },
+  "crimsonEyed:YasakaMagatama2": {
+    "NAME": "八坂の勾玉",
+    "DESCRIPTION": "ランダムな敵に!D! ダメージを与えつつ脱力を1付与することを3回繰り返す。 NL *燃焼を捨て札に加える。"
+  },
+  "crimsonEyed:LightningChoice": {
+    "NAME": "ライトニング",
+    "DESCRIPTION": "ライトニング1つを生成する。"
+  },
+  "crimsonEyed:DarkChoice": {
+    "NAME": "ダーク",
+    "DESCRIPTION": "ダーク1つを生成する。"
+  },
+  "crimsonEyed:PlasmaChoice": {
+    "NAME": "プラズマ",
+    "DESCRIPTION": "プラズマ1つを生成する。"
+  }
+}
