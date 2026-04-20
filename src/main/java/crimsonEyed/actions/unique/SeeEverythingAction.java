@@ -50,9 +50,9 @@ public class SeeEverythingAction extends AbstractGameAction {
                     this.addToBot(new ApplyPowerAction(m, p, new VulnerablePower(m, effect, false), effect, true, AbstractGameAction.AttackEffect.NONE));
                     this.addToBot(new ApplyPowerAction(m, p, new WeakPower(m, effect, false), effect, true, AbstractGameAction.AttackEffect.NONE));
                 }
-                if (!this.freeToPlayOnce) {
-                    p.energy.use(EnergyPanel.totalCount);
-                }
+            }
+            if (!this.freeToPlayOnce) {
+                p.energy.use(EnergyPanel.totalCount);
             }
         }
         this.isDone = true;

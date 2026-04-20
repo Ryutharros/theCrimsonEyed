@@ -47,7 +47,6 @@ public class Vantage extends AbstractDynamicCard {
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new ScryAction(magicNumber));
         addToBot(new GainEnergyAction(1));
     }
 

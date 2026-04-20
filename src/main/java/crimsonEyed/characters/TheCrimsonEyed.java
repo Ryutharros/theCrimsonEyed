@@ -3,6 +3,7 @@ package crimsonEyed.characters;
 import basemod.abstracts.CustomPlayer;
 import basemod.animations.SpineAnimation;
 import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.math.MathUtils;
 import com.esotericsoftware.spine.AnimationState;
@@ -14,23 +15,25 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.EnergyManager;
 import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.cutscenes.CutscenePanel;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.scene.IroncladVictoryFlameEffect;
+import com.megacrit.cardcrawl.vfx.scene.SlowFireParticleEffect;
 import crimsonEyed.SasukeMod;
 import crimsonEyed.cards.basic.*;
 import crimsonEyed.relics.commoner.CrimsonEye2;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 import static crimsonEyed.SasukeMod.*;
 
@@ -288,6 +291,29 @@ public class TheCrimsonEyed extends CustomPlayer {
     @Override
     public String getVampireText() {
         return TEXT[2];
+    }
+
+    @Override
+    public Texture getCutsceneBg() {
+        return ImageMaster.loadImage("images/scenes/blueBg.jpg");
+    }
+
+    @Override
+    public List<CutscenePanel> getCutscenePanels() {
+        List<CutscenePanel> panels = new ArrayList();
+        panels.add(new CutscenePanel("crimsonEyedResources/images/scenes/sasuke1.png", "CARD_EXHAUST"));
+        panels.add(new CutscenePanel("crimsonEyedResources/images/scenes/sasuke2.png"));
+        panels.add(new CutscenePanel("crimsonEyedResources/images/scenes/sasuke3.png"));
+        return panels;
+    }
+
+    @Override
+    public void updateVictoryVfx(ArrayList<AbstractGameEffect> effects) {
+        effects.add(new SlowFireParticleEffect());
+        effects.add(new SlowFireParticleEffect());
+        effects.add(new IroncladVictoryFlameEffect());
+        effects.add(new IroncladVictoryFlameEffect());
+        effects.add(new IroncladVictoryFlameEffect());
     }
 
     public static AbstractCard getColoredCard(AbstractCard.CardRarity rarity, AbstractCard.CardColor color) {

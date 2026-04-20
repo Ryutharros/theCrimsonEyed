@@ -30,6 +30,8 @@ public class PlanetaryDevastationAction extends AbstractGameAction {
             addToTop(new ChannelAction(new Plasma()));
         }
         addToTop(new IncreaseMaxOrbAction(amount));
-        addToTop(new VFXAction(new WeightyImpactEffect(m.hb.cX, m.hb.cY), 0.1f));
+        if (m != null) {
+            addToTop(new VFXAction(new WeightyImpactEffect(m.hb.cX, m.hb.cY), 0.1f));
+        }
     }
 }
