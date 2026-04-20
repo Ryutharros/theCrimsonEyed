@@ -541,23 +541,30 @@ public class SasukeMod implements
 
     private static String makeLocPath(String filename)
     {
-        String toReturn = "Resources/localization/";
+        String langFolder;
         switch (Settings.language)
         {
             case RUS:
-                toReturn += "rus/";
+                langFolder = "rus/";
                 break;
             case ZHS:
-                toReturn += "zhs/";
+                langFolder = "zhs/";
                 break;
             case ZHT:
-                toReturn += "zht/";
+                langFolder = "zht/";
+                break;
+            case JPN:
+                langFolder = "jpn/";
                 break;
             default:
-                toReturn += "eng/";
+                langFolder = "eng/";
                 break;
         }
-        return (toReturn + filename);
+        String localizedPath = "Resources/localization/" + langFolder + filename;
+        if (!Gdx.files.internal(getModID() + localizedPath).exists()) {
+            return "Resources/localization/eng/" + filename;
+        }
+        return localizedPath;
     }
 
     @Override
