@@ -50,7 +50,7 @@ public class Sharingan extends AbstractDynamicCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new SFXAction(makeID("SHARINGAN")));
-        addToBot(new ApplyPowerAction(m, p, new LockOnPower(m, 2)));
+        addToBot(new ApplyPowerAction(m, p, new LockOnPower(m, 2), 2));
         addToBot(new ScryAction(magicNumber));
         if (upgraded) {
             addToBot(new DrawCardAction(1));

@@ -54,7 +54,7 @@ public class Kagutsuchi extends AbstractDynamicCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new SFXAction(makeID("MANGEKYOU")));
         addToBot(new LoseHPAction(p, p, 1));
-        addToBot(new ApplyPowerAction(m, p, new LockOnPower(m, 1)));
+        addToBot(new ApplyPowerAction(m, p, new LockOnPower(m, 1), 1));
 
         if (upgraded) {
             addToBot(new AnimateOrbAction(1));
