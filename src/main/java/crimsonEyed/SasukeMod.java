@@ -496,7 +496,7 @@ public class SasukeMod implements
         
         // Event Strings
         BaseMod.loadCustomStringsFile(EventStrings.class,
-                getModID() + "Resources/localization/eng/SasukeMod-Event-Strings.json");
+                getModID() + makeLocPath("SasukeMod-Event-Strings.json"));
         
         // PotionStrings
         BaseMod.loadCustomStringsFile(PotionStrings.class,
@@ -508,7 +508,7 @@ public class SasukeMod implements
         
         // OrbStrings
         BaseMod.loadCustomStringsFile(OrbStrings.class,
-                getModID() + "Resources/localization/eng/SasukeMod-Orb-Strings.json");
+                getModID() + makeLocPath("SasukeMod-Orb-Strings.json"));
         
         logger.info("Done edittting strings");
     }
